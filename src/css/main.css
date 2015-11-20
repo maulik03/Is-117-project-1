@@ -87,8 +87,38 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+#wrapper {
+  width: 960px;
+  margin-left:auto;
+  margin-right:auto;
+}
+#logo {
+  float: left;
+  width: 160px;
+ height: 35px;
+ margin-bottom: 20 px;
+}
+#menu {
+ float: right;
+}
+#Content {
+ clear: both;
+}
+#menu li {
+  display: inline; 
+}
 
+#menu {
+  background-color: red;
 
+}
+#Content {
+  background-color:blue;
+}
+
+ul {
+  margin: 0px;
+}
 
 
 
